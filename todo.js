@@ -14,6 +14,9 @@ const users=require("./routes/users.js");
 
 
 
+
+
+
 //setting up my view engine
 app.set("views","./views");
 app.set("view engine","ejs");  //this is setting my view engine to ejs which i will be using and after this whole thing i dont need to set my view engine for any othe route

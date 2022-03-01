@@ -18,14 +18,10 @@
           <p><%=listitem[i]%></p>
           </div>
           <%}%>
-      <form class="item" action="/" method="POST" autocomplete"off">
+      <form class="item" action="/users" method="POST" autocomplete"off">
         <input type="text" name="listitem" placeholder="your list">
-        <button type="submit" name=<%=date%> >+</button>
+        <button type="submit" name="listname" value="<%=date%>" >+</button>
       </form>
     </div>
   </body>
 </html>
-
-<%#the most amazing thing about this code is that i will print the all the tags that are contained inside the control statment and loop statemnet %>
-<%# because all our html tags under the js code embedded code will appended to the html file as the code detrmine whih makes agian the html templating to a very high level%>
-<%# thats why the embedded code shpuld be written very carefully because it takes all of our tags and make it part of the code that is why at which tg you need to write it you shuld define the code at that point%>
