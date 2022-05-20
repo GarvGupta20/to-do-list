@@ -8,7 +8,7 @@ let p=date();
 let alist=[];
 let wlist=[];
 
-mongoose.connect("mongodb+srv://Garv_Gupta:garvgupta2002%402002@cluster0.qfzdw.mongodb.net/todolist");
+mongoose.connect("-------");
 
 
 const listschema={
